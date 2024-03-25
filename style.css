@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-size: xx-large;
 }
 body {
   min-height: 100vh;
@@ -51,6 +52,8 @@ article img {
   margin-right: auto;
   width: 40%;
   height: 40%;
+  max-width: 300px;
+  max-height: 300px;
 }
 footer {
   background-color: black;
@@ -69,14 +72,13 @@ form {
   justify-content: center;
   align-self: center;
   margin: 20px;
-  padding: 20px;
   flex-direction: column;
   width: 70%;
-  height: 60vh;
+  height: 100vh;
 }
 .about {
   font-size: small;
-  min-height: 70vh;
+  min-height: 100vh;
   margin: 10px;
   padding: 10px;
 }
